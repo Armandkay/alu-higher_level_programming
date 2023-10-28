@@ -1,4 +1,3 @@
-#!/usr/bin/python3
+#!/usr/bin/bash
 number = 98
-print(f"{number} Battery street\n", end=")
-
+print(f"{number} Battery street\n", end="")
