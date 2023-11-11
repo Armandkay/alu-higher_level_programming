@@ -39,9 +39,10 @@ if __name__ == "__main__":
         print("Usage: {} N".format(sys.argv[0]))
         sys.exit(1)
 
-    try:
-        N = int(sys.argv[1])
-        nqueens(N)
-    except ValueError:
-        print("N must be a number")
-        sys.exit(1)
+    if sys.argv[1] != "N":
+        try:
+            N = int(sys.argv[1])
+            nqueens(N)
+        except ValueError:
+            print("N must be a number")
+            sys.exit(1)
