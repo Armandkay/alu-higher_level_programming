@@ -39,4 +39,3 @@ if __name__ == "__main__":
     mc = MagicClass(5)
     print(mc.area())
     print(mc.circumference())
-
