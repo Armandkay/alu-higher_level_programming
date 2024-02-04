@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
+/* eslint-disable semi */
 const { dict } = require('./101-data');
 
 const sortedDict = {};
